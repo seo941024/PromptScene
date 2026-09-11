@@ -1,0 +1,28 @@
+# --- 모델 가중치 (실행 시 자동 다운로드) ---
+*.pt
+weights/
+
+# --- 샘플 영상 (scene_search.py getvideo 로 내려받음) ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# --- 강의자료 ---
+*.pptx
+
+# --- 파이썬 ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- 실행 산출물 (데모 결과 몇 개만 커밋하고 나머지는 무시하려면 아래 조정) ---
+results/scene_index.json
+results/새 폴더/
+
+# --- OS / 에디터 ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

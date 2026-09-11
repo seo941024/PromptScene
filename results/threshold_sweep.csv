@@ -1,0 +1,9 @@
+﻿threshold,yolo_world_count,grounding_dino_count
+0.05,6,362
+0.1,5,70
+0.15,5,27
+0.2,5,13
+0.25,5,10
+0.3,5,8
+0.4,5,4
+0.5,5,1

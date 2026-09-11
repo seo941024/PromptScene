@@ -1,0 +1,10 @@
+# 실습 2 - Open Vocabulary Detection
+# conda activate vision_new  후 설치
+
+ultralytics>=8.3.0          # YOLO-World (YOLOWorld 클래스)
+transformers>=4.44.0        # Grounding DINO (AutoModelForZeroShotObjectDetection)
+torch                       # CUDA 버전은 환경에 맞게 별도 설치 권장
+opencv-contrib-python==4.13.0.92
+numpy
+# CLIP 텍스트 인코더 (YOLO-World 가 요구)
+# pip install "https://github.com/ultralytics/CLIP/archive/refs/heads/main.zip"
