@@ -13,6 +13,27 @@
 
 ---
 
+## 데모
+
+### 두 OVD 모델 비교 (`ovd_compare.py`)
+
+같은 이미지·같은 대상(`person`, `bus`, `car`, `backpack`, `traffic light`)을 두 모델에 넣은 결과.
+YOLO-World는 단어를 클래스로 받아 깔끔하게 잡고, Grounding DINO는 문장을 해석해 `a person backpack` 처럼 관계까지 묶지만 중복 박스가 늘어난다.
+
+![OVD 모델 비교](docs/demo_compare.jpg)
+
+### 자연어 장면 검색 (`scene_search.py`)
+
+거리 영상을 v3 프롬프트로 인덱싱한 뒤 `"빨간 버스"` 로 검색 → 상위 프레임을 `mm:ss` 시각과 score 와 함께 컨택트시트로 저장.
+
+![빨간 버스 검색 결과](docs/demo_search_redbus.jpg)
+
+| `"자전거 탄 사람"` | `"우산 쓴 보행자"` |
+|---|---|
+| ![자전거 탄 사람](docs/demo_search_bicycle.jpg) | ![우산 쓴 보행자](docs/demo_search_umbrella.jpg) |
+
+---
+
 ## 설치
 
 ```bash
