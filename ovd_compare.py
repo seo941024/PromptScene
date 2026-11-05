@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-실습 2 - Open Vocabulary Detection (기본 소스코드)
-================================================
+Open Vocabulary Detection 모델 비교
+===================================
 
-슬라이드 7 "기본 소스코드가 하는 일" 4단계를 그대로 구현한다.
+아래 4단계로 두 모델을 같은 조건에서 비교한다.
 
   1) YOLO-World 실행     : 단어 리스트를 클래스로 지정해 추론
   2) Grounding DINO 실행 : 자연어 문장을 프롬프트로 넣어 추론
@@ -293,7 +293,7 @@ def threshold_sweep(yolo_raw, dino_raw, thresholds):
 # ----------------------------------------------------------------------------
 
 def main():
-    ap = argparse.ArgumentParser(description="실습 2 - Open Vocabulary Detection 기본 소스코드")
+    ap = argparse.ArgumentParser(description="Open Vocabulary Detection 모델 비교")
     ap.add_argument("--image", help="입력 이미지 경로 (미지정 시 --download-samples 필요)")
     ap.add_argument("--download-samples", action="store_true",
                     help="공개 샘플 이미지를 images/ 에 내려받아 사용")

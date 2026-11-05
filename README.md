@@ -1,6 +1,6 @@
-# PromptScene — 자연어로 영상·사진첩을 검색하는 Open-Vocabulary Detection 실습
+# PromptScene — 자연어로 영상·사진첩을 검색하는 Open-Vocabulary Detection
 
-고정된 클래스가 아니라 **텍스트 프롬프트로 "찾을 대상"을 그때그때 지정**하는 검출(OVD, Open-Vocabulary Detection)을 실습하고,
+고정된 클래스가 아니라 **텍스트 프롬프트로 "찾을 대상"을 그때그때 지정**하는 검출(OVD, Open-Vocabulary Detection) 모델을 비교하고,
 이를 응용해 **문장으로 영상/사진첩을 검색해 해당 프레임과 시각(mm:ss)을 찾아주는** 아카이브 도구를 만든다.
 
 | 스크립트 | 역할 |
@@ -133,4 +133,3 @@ python scene_search.py log
 
 - 샘플 이미지: [Ultralytics assets](https://github.com/ultralytics/ultralytics)
 - 샘플 영상: [Pexels](https://www.pexels.com/) (무료, 저작권 표시 불필요)
-- 교육용 실습 프로젝트

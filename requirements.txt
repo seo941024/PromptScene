@@ -1,4 +1,4 @@
-# 실습 2 - Open Vocabulary Detection
+# PromptScene - Open Vocabulary Detection
 # conda activate vision_new  후 설치
 
 ultralytics>=8.3.0          # YOLO-World (YOLOWorld 클래스)
